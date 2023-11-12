@@ -1,0 +1,29 @@
+.dovePagecontainer{
+
+}
+
+.doveHeadingdiv{
+    text-align: center;
+    background-color: #41b3a3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    margin: 7% auto ;
+    border-radius: 10px;
+}
+
+.doveHeading{
+text-align: center;
+padding-top: 0px;
+margin:  0px 0px;
+width: 7%;
+color: white;
+}
+
+
+#HeadingPic{
+    width: 4vw;
+    display: inline-block;
+}

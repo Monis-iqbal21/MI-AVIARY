@@ -1,0 +1,134 @@
+#footer_grid{
+    display: grid;
+    grid-template-columns: 33% 38% 26%;
+    height: 200px;
+    background: rgb(0,149,117);
+    background: linear-gradient(90deg, rgba(0,149,117,1) 0%, rgba(60,135,119,1) 58%, rgba(27,100,115,1) 100%);
+    margin: 0px;
+    padding: 1% 0px 1% 2%;
+    box-shadow: 2px -16px 61px -22px rgba(0,0,0,0.67);
+}
+
+#grid_1{
+    height: 100%;
+    text-align: center;
+    border-right:1px solid black;
+    color: rgb(38, 67, 90);
+}
+
+#footer_img{
+  width: 30%;
+  
+}
+
+
+#img_div_btn{
+padding: 0% 0px 0px 0px;
+margin-top: 15px;
+}
+.footer_btn{
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+}
+
+#img_div_btn h1{
+  
+}
+#grid_2{
+    height: 100%;
+    text-align: center;
+    padding-left: 5%;
+    border-right:1px solid black;
+   
+}
+
+
+
+#grid_3{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 60%;
+    text-align: center;
+    row-gap: 10px;
+}
+
+
+
+
+
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin: 0px 10px 0px 10px;
+  }
+  
+  
+  
+ 
+  .social-icons img{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 100px;
+    
+  }
+
+
+  .no_margin_padding{
+    margin: 0px;
+    padding: 0px;
+  }
+
+@media  screen and (min-width:300px) and (max-width:1000px) {
+  
+
+  #footer_grid{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 36% 28% 30% ;
+    height: 50%;
+    row-gap: 20px;
+
+
+  }
+  #grid_1{
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
+  #grid_2{
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+  #grid_3{
+
+  height: 90%;  
+  border-right: none;
+  }
+
+
+}
+
+@media  screen and (min-width:800px) and (max-width:999px) {
+
+  #footer_img{
+    width: 20%;
+  }
+  #img_div_btn h1{
+    margin-top: 4px;
+  }
+}

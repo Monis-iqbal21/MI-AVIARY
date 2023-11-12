@@ -1,0 +1,123 @@
+
+.no_margin_padding{
+    margin: 0%;
+    padding: 0px;
+}
+
+#center{
+    width: 80%;
+    margin: 0% 0% 0% 10%;
+}
+.Heading{
+    text-align: center;
+    margin: 10px 0px 80px 0px;
+    background-color: #41b3a3;
+    color: white;
+    border-radius: 18px;
+}
+
+.newitem_main_div_grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    grid-gap: 6%;
+    padding: none;
+    margin: 10px auto 40px auto;
+}
+.new_item_div{
+ grid-template-rows: 50% 25% 25%;
+ background-color: rgb(240, 240, 240);
+ border-radius: 6px;
+ box-shadow: 5px 10px 20px #afafaf;
+ margin: 0px 0px 30% 0px;
+ height: 100%;
+}
+#newitem_img{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height:75% ;
+    
+    
+}
+.img_size_newitem{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    
+}
+#newitem_heading{
+    margin: 0px;
+    padding: 0px 0px 3px 8px;
+    font-size: 25px;
+
+}
+#newitem_price{
+margin: 0px;
+padding: 0px;
+padding: 0px 0px 3px 8px;
+}
+
+
+@media screen and (min-width:100px) and (max-width:399px){
+    .newitem_main_div_grid{
+        display: grid;
+        grid-template-columns: 100%  ;
+        padding: 0px;
+        margin: 10px auto;
+        column-gap: 50px;
+        row-gap: 0px;
+    }
+    
+}
+
+@media screen and (min-width:400px) and (max-width:550px){
+    .newitem_main_div_grid{
+        display: grid;
+        grid-template-columns: 100%  ;
+        padding: 0px;
+        margin: 10px auto;
+        column-gap: 0px;
+        row-gap: 0px;
+    }
+    
+}
+
+@media screen and (min-width:551px) and (max-width:650px){
+    .newitem_main_div_grid{
+        display: grid;
+        grid-template-columns: 45% 45%  ;
+        padding: 0px;
+        margin: 10px auto;
+        column-gap: 50px;
+        row-gap: 0px;
+    }
+    
+}
+
+@media screen and (min-width:651px) and (max-width:700px){
+    .newitem_main_div_grid{
+        display: grid;
+        grid-template-columns: 48% 48%  ;
+        padding: 0px;
+        margin: 10px auto 10px auto;
+        column-gap: 50px;
+        row-gap: 0px;
+    }
+    
+}
+
+@media screen and (min-width:701px) and (max-width:1150px){
+    .newitem_main_div_grid{
+        display: grid;
+        grid-template-columns: 30% 30% 30%  ;
+        padding: 0px;
+        margin: 10px auto 10px auto;
+        column-gap: 50px;
+        row-gap: 0px;
+    }
+    
+}
+
+
+
+
